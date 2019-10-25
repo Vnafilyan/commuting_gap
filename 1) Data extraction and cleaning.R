@@ -460,7 +460,6 @@ df_m <- df_m %>%
          travel_time_imp_flag = is.na(travel_time2))
 
 summary(df_m$travel_time_imp)    
-save(df_m, file='D:/LM Discovery/ashe1997_2018_sum.Rdata')
 
 save(df_m, file='//nsdata1/ASHEdata/ASHE and LM Discovery/Data/ashe1997_2018_sum.Rdata')
 
